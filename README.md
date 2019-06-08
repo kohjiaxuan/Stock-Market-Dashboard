@@ -1,5 +1,7 @@
 # Stock-Market-Dashboard
 Creating a stock market dashboard from an external API that tracks daily performance of stocks and relative performance between stocks
+<br>Latest file is <b>FINAL. Using API to build Stock Market Dashboard</b> modified on 9 Jun 2019
+<br>Earliest design of dashboard is <b>Draft_Dashboard_Structure.png</b> in Mar 2019
 
 ## Building a dashboard for daily changing stock prices with API online
 JSON file received has stock information for a particular stock
