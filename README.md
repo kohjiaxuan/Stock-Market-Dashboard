@@ -12,6 +12,8 @@ JSON file received from REST API has stock information for a particular stock<br
 3. Stock prices and datetime are stored in Python lists for convenience of plotting<br>
 4. Basic calculation done in numpy to find percentage change for display and relative stock performance graph
 ## Dashboard Design - Divided into two halves
+![Stock Prices for June 6, 2019](https://github.com/kohjiaxuan/Stock-Market-Dashboard/blob/master/Dashboard_2019-06-06.jpg)
+<br>
 5. The top half has 6 small graphs to show daily movement chart of each tech stock (FAANGM)<br>
 6. The bottom half has stock index movement normalized by opening stock price in order to track relative performance of each stock to others over the day
 ## Libraries used
