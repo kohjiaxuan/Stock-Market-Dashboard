@@ -3,7 +3,7 @@ Creating a stock market dashboard from an external REST API (Alpha Vantage) that
 ## Motivations
 While there are a lot of websites and apps that show great visualisation of stocks, there are many limitations like (1) being able to select and view different stock trends at once, (2) analyse relative performance (% change) between stocks over the day and (3) sending stock reports via images/pdf quickly instead of spending time to screenshot an app/saving a website many times. The current applications and terminals out there charge a hefty fee for such features. Hence, the motivation to create a dashboard from API of live data to allow investors to analyse stocks and send reports easily!
 ## Updates
-<br>Latest file is <b>FINAL. Using API to build Stock Market Dashboard.ipynb</b> modified on 9 Jun 2019
+Latest file is <b>FINAL. Using API to build Stock Market Dashboard.ipynb</b> modified on 9 Jun 2019
 <br>Earliest design of dashboard is <b>Draft_Dashboard_Structure.png</b> in Mar 2019
 <br>Older versions of Juypter Notebook are named in alphabetical order (BE, BF, BF2, BF3, BF4, BF5)
 <br>Older designs of dashboard are also present in the repository
