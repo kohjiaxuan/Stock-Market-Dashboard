@@ -18,8 +18,17 @@ JSON file received from REST API has stock information for a particular stock<br
 <br>
 5. The top half has 6 small graphs to show daily movement chart of each tech stock (FAANGM)<br>
 6. The bottom half has stock index movement normalized by opening stock price in order to track relative performance of each stock to others over the day
+## Improvements in code (May 2020)
+7. Tidied up repo into folders, old notebooks and images are now put in archive
+8. Main script files to run are dashboarddaily.py in day_interval folder and dashboard.py in min_interval folder
+9. This allows you to plot stock market dashboards for the past 6 months (daily changes) and for the past day (5 min intervals) respectively
+10. Running the Python scripts directly will give a sample jpg/pdf in the same directory
+11. testday.py and testmin.py in the tests folder are tests on dashboarddaily and dashboard respectively and show how to import the script and use its main function
+12. New feature that allows user to choose a start date (e.g. 2020-01-02) for dashboarddaily.py or start time (09:35) for dashboard.py until the current/latest date/datetime to plot
 ## Libraries used
-7. Library used include urllib for accessing API, json to convert string into dictionary, datetime for formatting date time, numpy for calculations and matplotlib for graph plotting
+7. Library used include urllib for accessing API, time to delay the script running for a minute so that 3x2 API calls can be made to circumvent the 5 API call limit/min, json to convert string into dictionary, datetime for formatting date time, numpy for calculations and matplotlib for graph plotting
 ## Future Plans
-8. Moving all the code into a class object and allowing user to choose the stocks to plot<br>
-9. Building a front end interface via a Python app or web browser (Javascript) to increase user friendliness (not run it through a notebook) and allow users to select their stocks
+8. Building a front end interface via a Python app or web browser (Javascript) to increase user friendliness (not run it through a notebook) and allow users to select their stocks
+9. Using an email library that allows the images/PDF to be sent to the person's email on a hourly/daily/weekly basis
+10. Productionizing code with cron or Windows scheduler
+11. Deployment onto the cloud
