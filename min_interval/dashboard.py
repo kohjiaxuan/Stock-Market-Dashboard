@@ -104,7 +104,7 @@ def main(stock1, stock2, stock3, stock4, stock5, stock6, startdatetime=''):
     else:
         AAPLplot.set_title(stock1+'  Stock Price '+str(transformed_data["change"][0])+'%',fontsize=20,color='r')
     AAPLplot.tick_params(axis='y', which='major', labelsize=14)
-    AAPLplot.tick_params(axis='x', which='major', labelsize=9)
+    AAPLplot.tick_params(axis='x', which='major', labelsize=7)
     AAPLdailyopen = AAPLplot.plot(transformed_data["time"][0],transformed_data["open"][0],color='blue', label='Open')
     AAPLdailyhigh = AAPLplot.plot(transformed_data["time"][0],transformed_data["high"][0],'--',color='green', label='High')
     AAPLdailylow = AAPLplot.plot(transformed_data["time"][0],transformed_data["low"][0],'--',color='red', label='Low')
@@ -122,7 +122,7 @@ def main(stock1, stock2, stock3, stock4, stock5, stock6, startdatetime=''):
     else:
         AMZNplot.set_title(stock2+'  Stock Price '+str(transformed_data["change"][1])+'%',fontsize=20,color='r')    
     AMZNplot.tick_params(axis='y', which='major', labelsize=14)
-    AMZNplot.tick_params(axis='x', which='major', labelsize=9)
+    AMZNplot.tick_params(axis='x', which='major', labelsize=7)
     AMZNdailyopen = AMZNplot.plot(transformed_data["time"][1],transformed_data["open"][1],color='blue', label='Open')
     AMZNdailyhigh = AMZNplot.plot(transformed_data["time"][1],transformed_data["high"][1],'--',color='green', label='High')
     AMZNdailylow = AMZNplot.plot(transformed_data["time"][1],transformed_data["low"][1],'--',color='red', label='Low')
@@ -139,7 +139,7 @@ def main(stock1, stock2, stock3, stock4, stock5, stock6, startdatetime=''):
     else:
         GOOGLplot.set_title(stock3+'  Stock Price '+str(transformed_data["change"][2])+'%',fontsize=20,color='r')
     GOOGLplot.tick_params(axis='y', which='major', labelsize=14)
-    GOOGLplot.tick_params(axis='x', which='major', labelsize=9)
+    GOOGLplot.tick_params(axis='x', which='major', labelsize=7)
     GOOGLdailyopen = GOOGLplot.plot(transformed_data["time"][2],transformed_data["open"][2],color='blue', label='Open')
     GOOGLdailyhigh = GOOGLplot.plot(transformed_data["time"][2],transformed_data["high"][2],'--',color='green', label='High')
     GOOGLdailylow = GOOGLplot.plot(transformed_data["time"][2],transformed_data["low"][2],'--',color='red', label='Low')
@@ -156,7 +156,7 @@ def main(stock1, stock2, stock3, stock4, stock5, stock6, startdatetime=''):
     else:
         FBplot.set_title(stock4+'  Stock Price '+str(transformed_data["change"][3])+'%',fontsize=20,color='r')
     FBplot.tick_params(axis='y', which='major', labelsize=14)
-    FBplot.tick_params(axis='x', which='major', labelsize=9)
+    FBplot.tick_params(axis='x', which='major', labelsize=7)
     FBdailyopen = FBplot.plot(transformed_data["time"][3],transformed_data["open"][3],color='blue', label='Open')
     FBdailyhigh = FBplot.plot(transformed_data["time"][3],transformed_data["high"][3],'--',color='green', label='High')
     FBdailylow = FBplot.plot(transformed_data["time"][3],transformed_data["low"][3],'--',color='red', label='Low')
@@ -173,7 +173,7 @@ def main(stock1, stock2, stock3, stock4, stock5, stock6, startdatetime=''):
     else:
         MSFTplot.set_title(stock5+'  Stock Price '+str(transformed_data["change"][4])+'%',fontsize=20,color='r')
     MSFTplot.tick_params(axis='y', which='major', labelsize=14)
-    MSFTplot.tick_params(axis='x', which='major', labelsize=9)
+    MSFTplot.tick_params(axis='x', which='major', labelsize=7)
     MSFTdailyopen = MSFTplot.plot(transformed_data["time"][4],transformed_data["open"][4],color='blue', label='Open')
     MSFTdailyhigh = MSFTplot.plot(transformed_data["time"][4],transformed_data["high"][4],'--',color='green', label='High')
     MSFTdailylow = MSFTplot.plot(transformed_data["time"][4],transformed_data["low"][4],'--',color='red', label='Low')
@@ -190,7 +190,7 @@ def main(stock1, stock2, stock3, stock4, stock5, stock6, startdatetime=''):
     else:
         NFLXplot.set_title(stock6+'  Stock Price '+str(transformed_data["change"][5])+'%',fontsize=20,color='r')
     NFLXplot.tick_params(axis='y', which='major', labelsize=14)
-    NFLXplot.tick_params(axis='x', which='major', labelsize=9)
+    NFLXplot.tick_params(axis='x', which='major', labelsize=7)
     NFLXdailyopen = NFLXplot.plot(transformed_data["time"][5],transformed_data["open"][5],color='blue', label='Open')
     NFLXdailyhigh = NFLXplot.plot(transformed_data["time"][5],transformed_data["high"][5],'--',color='green', label='High')
     NFLXdailylow = NFLXplot.plot(transformed_data["time"][5],transformed_data["low"][5],'--',color='red', label='Low')
