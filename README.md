@@ -1,5 +1,10 @@
 # Stock-Market-Dashboard
 Creating a stock market dashboard from an external REST API (Alpha Vantage) - only for NYSE stocks - that allows investors to track daily performance of stocks and relative performance between stocks.
+## Installation
+```
+pip install -r pip_install.txt
+```
+requirements.txt show all the library dependencies, but using the pip_install.txt will do
 ## Motivations
 While there are a lot of websites and apps that show great visualisation of stocks, there are many limitations like:
 <br>1. Being able to select and view different stock trends at once
