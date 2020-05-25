@@ -20,7 +20,7 @@ While there are a lot of websites and apps that show great visualisation of stoc
 | min_interval | dashboard.py | 6 | 5 minutes | 1.5 days | 1 min++ |
 | min_interval_fourstocks | dashboardfour.py | 4 | 5 minutes | 1.5 days | Minimal delay |
 | day_interval | dashboarddaily.py | 6 | 1 day | 6 months | 1 min++ |
-| day_interval_fourstocks | dashboarddailyfour.py | 4 | 5 minutes | 6 months | Minimal delay |
+| day_interval_fourstocks | dashboarddailyfour.py | 4 | 1 day | 6 months | Minimal delay |
 
 ## Building a dashboard for daily changing stock prices with API online
 JSON file received from REST API has stock information for a particular stock<br>
